@@ -84,9 +84,17 @@ if(isset($_GET['logout'])){
                                     <span class="title">My Billing</span>
                             </a>
                         </li>
-                      
+                    </ul>
                 </nav>
             </header> 
+           <div class= "logout">
+                        <a href = "home.php" class="active">
+                        <span class="material-symbols-outlined full">
+                                   Logout
+                                    </span>
+                                    <span class="title">Logout</span>
+                        </a>
+            </div>
         </div>
         <div class="right">
             <!-- top start -->
